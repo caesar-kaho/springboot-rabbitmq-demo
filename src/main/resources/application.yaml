@@ -9,7 +9,11 @@ spring:
 rabbitmq:
   queue:
     name: spring-boot-queue
+    json:
+      name: json-queue
   exchange:
     name: spring-boot-exchange
   routing:
     key: spring-boot-routing-key
+    json:
+      key: json-routing-key
